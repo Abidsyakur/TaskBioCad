@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">botanique</div>
+      <nav>
+        <ul>
+          <li><a href="main.html" class="active">Главная</a></li>
+          <li><a href="analytics.html">Аналитика</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="search-bar">
+      <input
+        type="text"
+        placeholder="Поиск прибора в Botanique по номеру, названию, подразделению и др."
+      />
+      <div class="qr-code"></div>
+    </div>
+
+    <section class="favorite-devices">
+      <h2>❤ Любимые приборы</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Название</th>
+            <th>Статус</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="device">
+                <img src="device1.png" alt="pH-метр">
+                <span>pH-метр Mettler-Toledo International, Inc. SevenCompact S220</span>
+              </div>
+            </td>
+            <td>
+              <select>
+                <option value="available">Свободен</option>
+              </select>
+              <button class="notify">🔔</button>
+            </td>
+          </tr>
+          <!-- Tambahkan baris lainnya sesuai kebutuhan -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

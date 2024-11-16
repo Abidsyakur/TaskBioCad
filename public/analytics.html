@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аналитика</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">botanique</div>
+      <nav>
+        <ul>
+          <li><a href="main.html">Главная</a></li>
+          <li><a href="analytics.html" class="active">Аналитика</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="analytics-section">
+      <div class="device-info">
+        <h1>pH-метр Mettler-Toledo International, Inc. SevenCompact S220</h1>
+        <p>S1.4.I14-9.001 · 00-024004</p>
+      </div>
+
+      <div class="filters">
+        <label>Работа прибора</label>
+        <div class="date-range">
+          <input type="datetime-local" value="2021-10-07T10:55">
+          <span>—</span>
+          <input type="datetime-local" value="2021-10-21T10:55">
+        </div>
+        <div class="time-buttons">
+          <button>День</button>
+          <button>Неделя</button>
+          <button class="active">2 недели</button>
+          <button>Месяц</button>
+          <button>3 месяца</button>
+          <button>Полгода</button>
+        </div>
+      </div>
+
+      <div class="action-buttons">
+        <select>
+          <option>В работе</option>
+        </select>
+        <button class="favorite">❤</button>
+        <button class="save-pdf">СОХРАНИТЬ PDF</button>
+      </div>
+
+      <table class="analytics-table">
+        <thead>
+          <tr>
+            <th>Начало</th>
+            <th>Тип работ</th>
+            <th>Работы</th>
+            <th>Результат</th>
+            <th>Пользователь</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>09.10.2021, 15:46</td>
+            <td>В работе</td>
+            <td>Измерение<br>Образец/серия: 000100057935...</td>
+            <td>✔</td>
+            <td>morozovava</td>
+          </tr>
+          <tr>
+            <td>12.10.2021, 12:17</td>
+            <td>В работе</td>
+            <td>
+              Калибровка<br>
+              Номер колонки: Колонка 2<br>
+              Образец: Образец 2<br>
+              Метод: метов тестовый<br>
+              Номер колонки: Колонка 1
+            </td>
+            <td>✔</td>
+            <td>morozovava</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,10 +1,9 @@
-Berikut adalah README.md dalam bahasa Rusia:
 
 ```markdown
-# Botanique Analytics
+# TaskBioCad
 
 ## Описание проекта
-**Botanique Analytics** — это веб-приложение, разработанное для управления и анализа данных лабораторного оборудования. Проект поддерживает функции поиска, управления статусом оборудования, а также анализа истории использования оборудования за различные периоды времени.
+**TaskBioCad** — это веб-приложение, разработанное для управления и анализа данных лабораторного оборудования. Проект поддерживает функции поиска, управления статусом оборудования, а также анализа истории использования оборудования за различные периоды времени.
 
 ---
 
@@ -29,7 +28,8 @@ Berikut adalah README.md dalam bahasa Rusia:
 - **Backend**:
   - Node.js с Express.js.
   - База данных: MongoDB/MariaDB (укажите, что используется в вашем проекте).
-
+- **Хостинг/Развертывание**:
+  - Платформа: (например: Vercel, Heroku или другая).
 
 ---
 
@@ -43,8 +43,8 @@ Berikut adalah README.md dalam bahasa Rusia:
 ### Шаги установки
 1. Клонируйте этот репозиторий:
    ```bash
-   git clone https://github.com/Abidsyakur/Botanique Analytics.git
-   cd Botanique Analytics
+   git clone https://github.com/Abidsyakur/TaskBioCad.git
+   cd TaskBioCad
    ```
 
 2. Установите зависимости:
